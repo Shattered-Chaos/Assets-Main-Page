@@ -94,6 +94,14 @@ h1 {
     margin-bottom: 2.5rem;
 }
 
+a {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    display: flex;
+}
+
 .figma-button {
     display: inline-flex;
     align-items: center;
@@ -117,6 +125,34 @@ h1 {
 }
 
 .figma-button img {
+    width: 24px;
+    height: 24px;
+}
+
+.drive-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1.25rem 2.5rem;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.drive-button:hover {
+    background-color: var(--primary-light);
+    transform: translateY(-2px);
+}
+
+.drive-button img {
     width: 24px;
     height: 24px;
 }
